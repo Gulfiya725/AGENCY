@@ -1,0 +1,167 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeoKHbVuTZye36J0SnIgRHaml2FP-T-sS9r6dxMuvvnS9o2xxH9SzY1vCWpcS4wFHDdfs&usqp=CAU");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding: 150px 50px 50px 50px;
+}
+
+button{
+    color: white;
+    padding: 20px;
+    background-color: darkgreen;
+    border: 1px solid white;
+    text-decoration: none;
+
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+article{
+    text-align: center;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 50px;
+}
+.application {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+
+}
+
+.three-boxes
+{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    text-align: center;
+    border: 10px solid darkslategrey;
+    width: 95%;
+    margin: 0;
+    }
+
+.box p
+{
+    padding: 25px;
+}
+
+.contactabout
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+
+body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        background-image:url("https://cdn2.vectorstock.com/i/1000x1000/84/16/coding-world-vector-27828416.jpg");
+        background-size: cover;
+        background-position:center ;
+        color: white;
+        text-align: center;
+        height: 300px;
+        padding: 150px 50px 50px 50px ;
+    }
+
+    }
+    article p {
+        margin: 0;
+    }
+    article h2{
+        margin-top:  0;
+    }
+    .container{
+        width: 90%;
+    }
+    img{ width: 100%;
+    }
+
+    .box p{
+        padding: 20px;
+    }
+    .three-boxes
+    {
+        width:100% ;
+    }
+    .digital-box
+    {
+        text-align: center;
+        background-color:white;
+        margin: 0;
+        padding: 50px;
+    }
+    .contact
+    {
+        text-align: center;
+        background-color: lightskyblue;
+        margin: 0;
+        padding: 50px;
+        color: white;
+    }
+    .About
+    {
+        text-align: center;
+        background-color: darkslategrey;
+        color: white;
+        margin: 0;
+        padding: 50px;
+    }
+    .acme
+    {
+        text-align: center;
+        background-color:black;
+        color: white;
+        margin: 0;
+        padding: 50px;
+    }
+    .acme a{
+        text-decoration: none;
+        color: blue;
+    }
+
+
+
+@media only screen and (max-width: 720px) {
+    .three-boxes
+    {   display: flex;
+        flex-direction: column
+    }
+
+    .contactabout
+    {   display: flex;
+        flex-direction: column
+    }
+.application
+{
+    display: flex;
+    flex-direction: column
+}
+
+
+}
+
+
+
